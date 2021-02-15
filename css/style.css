@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+nav {
+  animation: nav-load ease-in-out 1000ms;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -54,4 +57,13 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+@keyframes nav-load {
+  0%{
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
