@@ -32,6 +32,15 @@ p {
     width: 100%;
   }
 
+  .carouselImage {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+
+  .carousel {
+    height: 600px !important;
+  }
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
